@@ -1,12 +1,24 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { useBookingStore } from '@/lib/store';
 import { formatCurrency, formatDate } from '@/lib/utils';
 import { CheckCircle, Download, Calendar as CalendarIcon, Home } from 'lucide-react';
 
 export default function ConfirmationPage() {
+    return (
+        <Suspense fallback={
+            <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+                <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary-800"></div>
+            </div>
+        }>
+            <ConfirmationContent />
+        </Suspense>
+    );
+}
+
+function ConfirmationContent() {
     const router = useRouter();
     const searchParams = useSearchParams();
     const { bookingData, resetBooking } = useBookingStore();
