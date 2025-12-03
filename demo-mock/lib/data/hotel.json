@@ -1,0 +1,30 @@
+{
+  "name": "Q BOUTIQUE RESORT MALINDI",
+  "slug": "q-boutique-resort-malindi",
+  "description": "Experience luxury in the heart of Malindi. Our elegant resort offers world-class amenities and exceptional service.",
+  "location": "Malindi, Kenya",
+  "email": "info@qboutiqueresort.com",
+  "phone": "+254 20 123 4567",
+  "address": "Malindi Beach Road, Malindi, Kenya",
+  "rating": 4.8,
+  "reviewCount": 342,
+  "amenities": [
+    "WiFi",
+    "Pool",
+    "Spa",
+    "Restaurant",
+    "Gym",
+    "Parking",
+    "24/7 Reception",
+    "Room Service"
+  ],
+  "checkInTime": "14:00",
+  "checkOutTime": "11:00",
+  "currency": "USD",
+  "images": [
+    "/images/hotel-exterior.jpg",
+    "/images/hotel-lobby.jpg",
+    "/images/hotel-pool.jpg",
+    "/images/hotel-restaurant.jpg"
+  ]
+}

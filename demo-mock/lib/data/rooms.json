@@ -1,0 +1,80 @@
+[
+    {
+        "id": "room-1",
+        "name": "Standard Room",
+        "description": "Comfortable and well-appointed room perfect for business or leisure travelers.",
+        "price": 120,
+        "size": "25 sqm",
+        "beds": "Queen Bed",
+        "maxOccupancy": 2,
+        "totalRooms": 10,
+        "amenities": [
+            "WiFi",
+            "TV",
+            "Minibar",
+            "Safe",
+            "Air Conditioning",
+            "Work Desk"
+        ],
+        "images": [
+            "/images/standard-room-1.jpg",
+            "/images/standard-room-2.jpg",
+            "/images/standard-room-3.jpg"
+        ]
+    },
+    {
+        "id": "room-2",
+        "name": "Deluxe Suite",
+        "description": "Spacious suite with stunning city views and premium amenities for a luxurious stay.",
+        "price": 200,
+        "size": "35 sqm",
+        "beds": "King Bed",
+        "maxOccupancy": 3,
+        "totalRooms": 8,
+        "amenities": [
+            "WiFi",
+            "TV",
+            "Minibar",
+            "Safe",
+            "Bathtub",
+            "City View",
+            "Air Conditioning",
+            "Work Desk",
+            "Coffee Maker"
+        ],
+        "images": [
+            "/images/deluxe-suite-1.jpg",
+            "/images/deluxe-suite-2.jpg",
+            "/images/deluxe-suite-3.jpg",
+            "/images/deluxe-suite-4.jpg"
+        ]
+    },
+    {
+        "id": "room-3",
+        "name": "Presidential Suite",
+        "description": "Ultimate luxury with separate living area, premium furnishings, and exclusive amenities.",
+        "price": 450,
+        "size": "70 sqm",
+        "beds": "King Bed + Sofa Bed",
+        "maxOccupancy": 4,
+        "totalRooms": 2,
+        "amenities": [
+            "WiFi",
+            "TV",
+            "Kitchen",
+            "Safe",
+            "Jacuzzi",
+            "Balcony",
+            "City View",
+            "Living Room",
+            "Dining Area",
+            "Premium Toiletries"
+        ],
+        "images": [
+            "/images/presidential-suite-1.jpg",
+            "/images/presidential-suite-2.jpg",
+            "/images/presidential-suite-3.jpg",
+            "/images/presidential-suite-4.jpg"
+        ]
+    }
+]
